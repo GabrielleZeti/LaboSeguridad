@@ -1,0 +1,35 @@
+    1  gpg --armor --output public_key.asc --export 00056122@uca.edu.sv
+    2  gpg --armor --output private_key.asc --export 00056122@uca.edu.sv
+    3  gpg --output copia_public.asc.gpg --sign copia_public.asc
+    4  gpg --armor --output public_key.asc --export 00056122@uca.edu.sv
+    5  gpg --armor --output private_key.asc --export 00056122@uca.edu.sv
+    6  gpg --output copia_public.asc.gpg --sign copia_public.asc
+    7  git clone https://github.com/GabrielleZeti/LaboSeguridad.git
+    8  sudo apt install git
+    9  git clone https://github.com/GabrielleZeti/LaboSeguridad.git
+   10  gpg --armor --output public_key.asc --export 00056122@uca.edu.sv
+   11  gpg --armor --output privada.asc --export 00056122@uca.edu.sv
+   12  gpg --armor --output private_key.asc --export 00056122@uca.edu.sv
+   13  cp public_key.asc copia_public_key.asc
+   14  cp private_key.asc copia_private_key.asc
+   15  gpg --output copia_public_key.asc gpg --sign copia_public_key.asc
+   16  gpg --output copia_public_key.asc
+   17  gpg --output doc.sign --sign doc
+   18  gpg --output doc.gpg --encrypt --recipient 00056122@uca.edu.sv doc
+   19  gpg --output doc.gpg --symetric doc
+   20  gpg --output doc.gpg --symmetric doc
+   21  clear
+   22  gpg --full-generate-key
+   23  gpg --output my_revocation_certificate.asc --gen-revoke 1234
+   24  gpg --output my_revocation_certificate.asc --gen-revoke 1248
+   25  gpg --output my_revocation_certificate.asc --gen-revoke 0
+   26  gpg --list-keys
+   27  gpg --output doc.gpg --export 0
+   28  gpg --armor --output doc.asc --export 0
+   29  gpg --full-generate-key
+   30  gpg --output my_revocation_certificate.asc --gen-revoke 0
+   31  gpg --armor --output doc.asc --export 0
+   32  gpg --ouput my-priv-gpg-key.asc --export-secret-keys 0
+   33  gpg --output my-priv-gpg-key.asc --export-secret-keys 0
+   34  gpg --output doc.gpg --symmetric doc
+   35  history > history.txt
