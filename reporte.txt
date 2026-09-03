@@ -1,0 +1,19 @@
+Punto más débil de PGP: La passphrase de la clave privada. Por más robusto que sea el algoritmo (RSA 3072+ bits), si alguien obtiene la clave y descifra o roba la contraseña (por fuerza bruta, ingeniería social o malas prácticas), puede suplantar al dueño, descifrar mensajes y firmar en su nombre.
+
+Cuándo usar solo cifrado simétrico: Cuando ambas partes pueden intercambiar la clave por un canal seguro y alternativo (ej. en persona), cuando son pocos participantes (para evitar el problema de n(n−1)/2n(n−1)/2 claves), y cuando importa más el rendimiento que la distribución de claves (ej. respaldos personales en disco).
+
+SSDLC (SDL de Microsoft) en 7 etapas:
+
+Entrenamiento (previo): formación en seguridad y privacidad.
+
+Requisitos: definir requisitos de seguridad (datos sensibles, entradas no confiables).
+
+Diseño: incorporar controles y mitigaciones (diferenciar características seguras vs. de seguridad).
+
+Implementación: programar con herramientas y prácticas seguras, revisión de código por terceros.
+
+Verificación: pruebas de seguridad (análisis estático/dinámico, pentesting).
+
+Versión/Lanzamiento: revisión final y plan de respuesta antes de publicar.
+
+Respuesta (post-lanzamiento): manejo de incidentes y parches en producción.
